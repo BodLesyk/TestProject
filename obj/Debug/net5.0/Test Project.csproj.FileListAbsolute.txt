@@ -1,0 +1,75 @@
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\appsettings.json
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.exe
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.deps.json
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.runtimeconfig.json
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.runtimeconfig.dev.json
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\ref\Test Project.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.Views.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Test Project.Views.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.csprojAssemblyReference.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.AssemblyInfoInputs.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.AssemblyInfo.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.csproj.CoreCompileInputs.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.RazorAssemblyInfo.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.RazorAssemblyInfo.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\staticwebassets\Test Project.StaticWebAssets.Manifest.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\staticwebassets\Test Project.StaticWebAssets.xml
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\scopedcss\bundle\Test Project.styles.css
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.TagHelpers.input.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.TagHelpers.output.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.RazorCoreGenerate.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.RazorTargetAssemblyInfo.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.RazorTargetAssemblyInfo.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.Views.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\ref\Test Project.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.genruntimeconfig.cache
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Test Project.csproj.CopyComplete
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\SquareInput.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\Frai.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\Perekur.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\GoPerekur.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\ShowEmployees.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

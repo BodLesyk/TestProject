@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+    ViewBag.Title = "SquareInput";
+}
+
+<h2>Square Input</h2>
+<form action="/Home/Square" method="post">
+    <div>Area of triangle</div>
+    <span>Base </span><input type="text" name="a" />
+    <span>Height </span><input type="text" name="b" /> <br />
+    <input type="submit" name="Send" value="Send" />
+</form>
