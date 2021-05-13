@@ -1,0 +1,14 @@
+﻿@using HtmlHelpersApp.App_Code
+@model List<string>
+
+
+
+@{
+    List<string> cities = new List<string> { "Лондон", "Париж", "Берлин" };
+}
+
+<h3>Города</h3>
+@Html.CreateList(cities)
+
+<h3>Книги</h3>
+@Html.CreateList(Model)
