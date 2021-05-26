@@ -74,3 +74,7 @@ C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtime
 C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\b.lesik\source\repos\Test Project\Test Project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\Books.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\Films.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\AppointPerekur.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Home\Completed.cshtml.g.cs
+C:\Users\b.lesik\source\repos\Test Project\Test Project\obj\Debug\net5.0\Razor\Views\Cancelled.cshtml.g.cs

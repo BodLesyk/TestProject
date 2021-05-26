@@ -15,6 +15,7 @@ namespace Test_Project.Models
     }
     public class Employee
     {
+        public int Id;
 
         public string FirstName;
 

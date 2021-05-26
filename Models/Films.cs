@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Test_Project.Models
 {
-    public class Films
+    public  class Films
     {
         public List<string> films = new List<string>() { "film 1", "film 2", "film 3" };
 

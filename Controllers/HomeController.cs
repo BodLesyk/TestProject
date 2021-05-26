@@ -6,18 +6,22 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Test_Project.Models;
+using Test_Project.Check;
 
 namespace Test_Project.Controllers
 {
     public class HomeController : Controller
     {
+
+
+
         public List<Employee> employees;
         public void Employees()
         {
             employees = new List<Employee> {
-             new Employee() { FirstName = "Oleg", LastName = "Drobina", position = Position.Support_L3},
-            new Employee() { FirstName = "Bogdan", LastName = "Lesyk", position = Position.Support_L3 },
-            new Employee() { FirstName = "Bogdan", LastName = "Spasibov", position = Position.Team_Lead }
+             new Employee() { Id=1, FirstName = "Oleg", LastName = "Drobina", position = Position.Support_L3},
+            new Employee() {Id=2,  FirstName = "Bogdan", LastName = "Lesyk", position = Position.Support_L3 },
+            new Employee() {Id=3, FirstName = "Bogdan", LastName = "Spasibov", position = Position.Team_Lead }
         };
         }
 
@@ -92,7 +96,51 @@ namespace Test_Project.Controllers
             return View(books);
         }
 
+        public IActionResult Films()
+        {
+            var films = new Films();
+            return View(films);
+        }
 
+        [HttpGet]
+        public ViewResult AppointPerekur()
+        {
+            return View(new Appointment { Date = DateTime.UtcNow});
+        }
+
+        [HttpPost]
+        public ViewResult AppointPerekur(Appointment appointment)
+        {
+            var yesterday = DateTime.Today.AddDays(-1);
+            if (IsNumberCheck.IsNumber(appointment.Name))
+            {
+                ModelState.AddModelError("Name", "Введите свое настоящее имя");
+            }
+            if (appointment.Date <=yesterday)
+            {
+                ModelState.AddModelError("", "Выбрать прошедшую дату невозможно!");
+            }
+            if(appointment.Date.DayOfWeek == DayOfWeek.Saturday || appointment.Date.DayOfWeek == DayOfWeek.Sunday)
+            {
+                ModelState.AddModelError("", "Это выходной день, курить в офисе нельзя!");
+            }
+            if (!appointment.CaseClosed)
+            {
+                ModelState.AddModelError("", "Пожалуйста, скажите, что производительность это легко");
+            }
+
+            if (ModelState.IsValid)
+            {
+                return View("Completed", appointment);
+            }
+            else
+            {
+                return View();
+            }
+
+        }
+
+        
 
     }
 }

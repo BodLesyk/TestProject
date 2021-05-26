@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using HtmlHelpersApp.App_Code
+@model Test_Project.Models.Films
+
+
+<h3>Фильмы</h3>
+@Html.CreateList(Model.films)
+
+
+<h3>Мультики</h3>
+@Html.CreateList(Model.movies)
+
