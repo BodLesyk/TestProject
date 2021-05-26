@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Test_Project.Models;
 using Test_Project.Check;
+using System.Text.RegularExpressions;
 
 namespace Test_Project.Controllers
 {
@@ -112,23 +113,24 @@ namespace Test_Project.Controllers
         public ViewResult AppointPerekur(Appointment appointment)
         {
             var yesterday = DateTime.Today.AddDays(-1);
-            var invalidChars = new[] { '(', '_', '!', '"', '№', ';', '%', ':', '?', '*', ')', '"'};
             var invalidNums = new[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+            var invalidCharss = new[] { '!', '@', '"', '#', '№', '$', ';', '%', '^', ':', '&', '?', '*', '(', ')', '_', '-', '+', '=','\\','|','/','<','>',',','.','"', '{','}','[',']',';'};
             
+
             if (appointment.Name.Any(x => invalidNums.Contains(x)))
             {
                 ModelState.AddModelError("", "Цифры не доступны при вводе имени!");
             }
-            if (appointment.Name.Any(x => invalidChars.Contains(x)))
+            if (appointment.Name.Any(x => invalidCharss.Contains(x)))
             {
                 ModelState.AddModelError("", "Символы не доступны при вводе имени!");
             }
 
-            if (IsNumberCheck.IsNumber(appointment.Name))
-            {
-                ModelState.AddModelError("Name", "Пожалуйста, введите свое настоящее имя!");
+            //if (IsNumberCheck.IsNumber(appointment.Name))
+            //{
+            //    ModelState.AddModelError("Name", "Пожалуйста, введите свое настоящее имя!");
                 
-            }
+            //}
             if (appointment.Date <=yesterday)
             {
                 ModelState.AddModelError("", " Ошибка! Выбрать прошедшую дату невозможно!");
