@@ -11,7 +11,8 @@
     @using (Html.BeginForm())
     {
         @Html.ValidationSummary()
-        <p>Ваше имя: @Html.EditorFor(x => x.Name)</p>
+//<p>@Html.ValidationMessageFor(x => x.Name)</p>
+<p>Ваше имя: @Html.EditorFor(x => x.Name)</p> 
         <p>Дата и время перекура: @Html.EditorFor(x => x.Date)</p>
         <p>@Html.EditorFor(x => x.CaseClosed) Производительность это изи </p>
         <input type="submit" value="Подтвердить" />

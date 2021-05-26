@@ -112,17 +112,30 @@ namespace Test_Project.Controllers
         public ViewResult AppointPerekur(Appointment appointment)
         {
             var yesterday = DateTime.Today.AddDays(-1);
+            var invalidChars = new[] { '(', '_', '!', '"', '№', ';', '%', ':', '?', '*', ')', '"'};
+            var invalidNums = new[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+            
+            if (appointment.Name.Any(x => invalidNums.Contains(x)))
+            {
+                ModelState.AddModelError("", "Цифры не доступны при вводе имени!");
+            }
+            if (appointment.Name.Any(x => invalidChars.Contains(x)))
+            {
+                ModelState.AddModelError("", "Символы не доступны при вводе имени!");
+            }
+
             if (IsNumberCheck.IsNumber(appointment.Name))
             {
-                ModelState.AddModelError("Name", "Введите свое настоящее имя");
+                ModelState.AddModelError("Name", "Пожалуйста, введите свое настоящее имя!");
+                
             }
             if (appointment.Date <=yesterday)
             {
-                ModelState.AddModelError("", "Выбрать прошедшую дату невозможно!");
+                ModelState.AddModelError("", " Ошибка! Выбрать прошедшую дату невозможно!");
             }
             if(appointment.Date.DayOfWeek == DayOfWeek.Saturday || appointment.Date.DayOfWeek == DayOfWeek.Sunday)
             {
-                ModelState.AddModelError("", "Это выходной день, курить в офисе нельзя!");
+                ModelState.AddModelError("", "Вы выбрали выходной день, курите дома!");
             }
             if (!appointment.CaseClosed)
             {
